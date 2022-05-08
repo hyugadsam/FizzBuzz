@@ -17,11 +17,11 @@ describe("Tests para ExplorerService", () => {
         expect(explorersInMission).toBe(10);
     });
 
-    test("Requerimiento 3: Prueba falla para el git hubworkflow", () => {
-        const explorers = Reader.readJsonFile("./explorers.json");
-        const explorersInMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
-        console.log(explorersInMission);
-        expect(explorersInMission).toBe(100);
-    });
+    // test("Requerimiento 3: Prueba falla para el git hubworkflow", () => {
+    //     const explorers = Reader.readJsonFile("./explorers.json");
+    //     const explorersInMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
+    //     console.log(explorersInMission);
+    //     expect(explorersInMission).toBe(100);
+    // });
 
 });
